@@ -26,8 +26,6 @@ body {
     text-align: center;
 }
 
-/* CABEÇALHO */
-
 .cabecalho__container {
     background-color: var(--branco);
     height: 80px;
@@ -150,9 +148,6 @@ body {
     transform: translateX(26px);
   }
 
-
-/* MENU LATERAL */
-
 .menu__container {
     font-size: 14px;
     background-color: var(--branco);
@@ -234,8 +229,6 @@ body {
     content: url(../img/sidebar/sports_esports.png);
 }
 
-/* SECAO SUPERIOR */
-
 .superior__secao__container {
     height: 63px;
     color: var(--branco);
@@ -278,8 +271,6 @@ body {
     background-color: var(--branco);
 }
 
-/* SEÇÃO VÍDEOS */
-
 .videos__container {
     color: black;
     padding: 153px 20px 10px 20px;
@@ -318,8 +309,6 @@ iframe{
         height: 100vh;
     }
 
-    /* ESTILOS DO MENU LATERAL */
-
     .menu__container {
         font-size: 16px;
     }
@@ -332,16 +321,12 @@ iframe{
         width: 100%;
     }
 
-    /* ESTILOS DA SECAO SUPERIOR */
-
     .superior__secao__container {
         border-top: var(--azul-medio) 1px solid;
         border-bottom: var(--azul-medio) 1px solid;
         width: auto;
         left: 82px;
     }
-
-    /*ESTILOS SEÇÃO VÍDEOS */
 
     .videos__container {
         padding-left: 90px;
@@ -352,19 +337,13 @@ iframe{
 
 @media(min-width: 1440px) {
 
-    /* SEÇÃO SUPERIOR */
-
     .superior__secao__container {
         left: 247px;
     }
 
-    /* ESTILOS DO MENU LATERAL */
-
     .menu__lista {
         border-bottom: 1.5px solid var(--azul-medio);
     }
-
-    /* ESTILOS VIDEOS */
 
     .videos__container {
         padding-right: 10px;
